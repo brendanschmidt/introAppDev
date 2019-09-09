@@ -99,5 +99,27 @@ namespace OOPsReview
 
         public double? Price { get; set; }
 
+        //Constructor
+
+        //either you code your constructors or you omit
+        //  your constructors
+        //if you omit constructors then the system will initialize
+        //  your data members to the natural system defaults for
+        //  that data member datatype.
+        //if you code any constructor you are responsible for coding 
+        //  all constructors to be used by this class
+
+        //Default
+        //simulates the system initialization of your data
+        //default executes on a : new FencePanel();
+        public FencePanel()
+        {
+            //optionally you can override the system values with your
+            // own values
+            Height = 6.0;
+            Width = 8.0;
+            //the remainder of your data values would bethe system values
+        }
+
     }
 }
